@@ -30,8 +30,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
-gem 'faker'
-gem 'devise'
+gem 'faker' #produce fake data for testing
+gem 'devise' #create authentication system
+gem 'figaro', '1.0' #security, environment variables
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
